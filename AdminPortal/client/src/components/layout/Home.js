@@ -1,0 +1,21 @@
+import React from 'react';
+
+const Home = () => {
+
+  return(
+    <div>
+        <br/>
+        <br/>
+        <div className="container" style={{marginTop: "125px"}}>
+          <div className="jumbotron">
+            <img src="/images/ic_launcher_foreground.png" alt="logo" className="card rounded-circle"></img>
+            <h2>Welcome to <b>Parrot Says</b></h2>      
+            <p>Please, select your option at the menu.</p>
+          </div>
+        </div>
+    </div>
+  ) 
+
+ };
+
+export default Home;
